@@ -1,0 +1,456 @@
+[
+  {
+    "id": "movie-gallery",
+    "name": "Movie Gallery",
+    "author": "grimmdev",
+    "description": "Add a homepage gallery/slider.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "homepage",
+      "gallery"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/MovieGallery/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/MovieGallery",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/MovieGallery/MovieGallery.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null,
+    "vars": [
+      {
+        "key": "GALLERY_TIMEOUT",
+        "name": "Gallery Timeout",
+        "description": "The time it takes to change media items in the gallery.",
+        "type": "number",
+        "default": "6000"
+      },
+      {
+        "key": "SHOW_MOVIE_INFO",
+        "name": "Show Movie Details",
+        "description": "Shows the movie details.",
+        "type": "boolean",
+        "default": "true"
+      }
+    ]
+  },
+  {
+    "id": "video-tuner",
+    "name": "Video Tuner",
+    "author": "grimmdev",
+    "description": "Adds brightness, contrast, saturation, sharpness and denoise controls to the Jellyfin video player.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "player",
+      "video"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/VideoTuner/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/VideoTuner",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/VideoTuner/VideoTuner.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "ambient-play-button",
+    "name": "Ambient Play Button",
+    "author": "grimmdev",
+    "description": "Samples movie poster colors and applies the majority color to the play button.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/AmbientPlayButton/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/AmbientPlayButton",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/AmbientPlayButton/AmbientPlayButton.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "screenshot-button",
+    "name": "Video Screenshot",
+    "author": "grimmdev",
+    "description": "Adds a screenshot button to the video player, Supports single capture and auto-screenshot mode at a configurable interval.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "player",
+      "video"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/Screenshot/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/Screenshot",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/Screenshot/Screenshot.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "360-vr-player",
+    "name": "360 VR Player",
+    "author": "Mix1C",
+    "description": "A custom 360 degree video player.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.10+",
+    "tags": [
+      "vr",
+      "ui",
+      "player",
+      "video"
+    ],
+    "previewUrl": "https://i.imgur.com/jNiUciN.png",
+    "sourceUrl": "https://github.com/Mix1C/Jellyfin-360VR-Player",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Mix1C/Jellyfin-360VR-Player@main/jellyfin-vr.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "new-arrivals-badge",
+    "name": "New Arrivals Badge",
+    "author": "grimmdev",
+    "description": "A custom badge for items to jellyfin, that shows newly added items.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "badges"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/NewArrivals/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/NewArrivals",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/NewArrivals/NewArrivals.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "hover-details",
+    "name": "Hover Details",
+    "author": "grimmdev",
+    "description": "A popup on hover for movie/show/episode details.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "popup"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/HoverDetails/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/HoverDetails",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/HoverDetails/HoverDetails.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "seasonal-effects",
+    "name": "Seasonal Effects",
+    "author": "grimmdev",
+    "description": "Decorate your jellyfin with seasonal effects.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "particles",
+      "seasons"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/SeasonalEffects/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/SeasonalEffects",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/SeasonalEffects/SeasonalEffects.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "bluelight-filter",
+    "name": "Bluelight Filter",
+    "author": "grimmdev",
+    "description": "A button to your video player to filter bluelight.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "video",
+      "player"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/BluelightFilter/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/BluelightFilter",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/BluelightFilter/BluelightFilter.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "random-movie",
+    "name": "Random Movie",
+    "author": "grimmdev",
+    "description": "Roll the dice and pick a random movie.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "movies"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/RandomMovie/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/RandomMovie",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/RandomMovie/RandomMovie.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "are-you-still-watching",
+    "name": "Are You Still Watching?",
+    "author": "grimmdev",
+    "description": "Netflix like are you still watching.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "movies",
+      "episodes"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/AreYouStillWatching/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/AreYouStillWatching",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/AreYouStillWatching/AreYouStillWatching.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "user-insights",
+    "name": "User Insights",
+    "author": "grimmdev",
+    "description": "User based insights.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "movies",
+      "stats",
+      "episodes"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/UserInsights/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/UserInsights",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/UserInsights/UserInsights.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "rating-badges",
+    "name": "Rating Badges",
+    "author": "grimmdev",
+    "description": "Rating badges for imdb, and rotten tomatoes.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "badges",
+      "ratings"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/RatingBadges/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/RatingBadges",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/RatingBadges/RatingBadges.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "vision",
+    "name": "Vision (X-ray alt)",
+    "author": "grimmdev",
+    "description": "An alternative to amazon's X-ray feature, presents information from wikipedia.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "video",
+      "movies",
+      "episodes"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/Vision/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/Vision",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/Vision/Vision.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "3d-movie-posters",
+    "name": "3D Movie Posters",
+    "author": "grimmdev",
+    "description": "3d movie posters that rotate with your mouse.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/3DMoviePosters/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/3DMoviePosters",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/3DMoviePosters/3DMoviePosters.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "weather-card",
+    "name": "Weather Card",
+    "author": "grimmdev",
+    "description": "Shows the current weather and time on the home page.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "homepage"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/WeatherCard/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/WeatherCard",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/WeatherCard/WeatherCard.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "weather-icon",
+    "name": "Weather Icon",
+    "author": "grimmdev",
+    "description": "Shows the current weather in the header.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "header"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/WeatherIcon/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/WeatherIcon",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/WeatherIcon/WeatherIcon.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "time-icon",
+    "name": "Time Icon",
+    "author": "grimmdev",
+    "description": "Shows the current time in the header.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "header"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/TimeIcon/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/TimeIcon",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/TimeIcon/TimeIcon.min.js",
+    "jsInline": null,
+    "cssUrl": null,
+    "cssInline": null
+  },
+  {
+    "id": "active-session-counter-icon",
+    "name": "Active Session Counter Icon",
+    "author": "grimmdev",
+    "description": "Shows the active content watching sessions.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "header"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/ActiveSessionCounterIcon/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/ActiveSessionCounterIcon",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/ActiveSessionCounterIcon/ActiveSessionCounterIcon.min.js",
+    "cssUrl": null
+  },
+  {
+    "id": "latency-icon",
+    "name": "Latency Icon",
+    "author": "grimmdev",
+    "description": "Shows the current latency in the header.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "header"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/LatencyIcon/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/LatencyIcon",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/LatencyIcon/LatencyIcon.min.js",
+    "cssUrl": null
+  },
+  {
+    "id": "battery-icon",
+    "name": "Battery Icon",
+    "author": "grimmdev",
+    "description": "Shows the current battery in the header.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "header"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/BatteryIcon/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/BatteryIcon",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/BatteryIcon/BatteryIcon.min.js",
+    "cssUrl": null
+  },
+  {
+    "id": "movie-quiz-card",
+    "name": "Movie Quiz Card",
+    "author": "grimmdev",
+    "description": "Adds a movie quiz to the homepage.",
+    "version": "1",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "homepage"
+    ],
+    "previewUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/MovieQuizCard/thumbnail.png",
+    "sourceUrl": "https://github.com/Jellyfin-PG/Custom-Mods/tree/main/MovieQuizCard",
+    "jsUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Custom-Mods@main/MovieQuizCard/MovieQuizCard.min.js",
+    "cssUrl": null
+  },
+  {
+    "id": "native-library-nav",
+    "name": "Native Library Navigation",
+    "author": "Custom",
+    "description": "Adds Movies and Shows buttons to the Jellyfin top navigation.",
+    "version": "1.0.0",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "home",
+      "header"
+    ],
+    "previewUrl": "",
+    "sourceUrl": "",
+    "jsUrl": null,
+    "jsInline": "(function(){const items=[{id:'navMovies',label:'Movies',route:'/movies?topParentId=f137a2dd21bbc1b99aa5c0f6bf02a805&collectionType=movies'},{id:'navShows',label:'Shows',route:'/tv?topParentId=a656b907eb3a73532e40e44b968d0225&collectionType=tvshows'}];function find(t){return [...document.querySelectorAll('a,button')].find(e=>(e.textContent||'').trim()===t)}function add(){const home=find('Home');if(!home)return;const parent=home.parentElement;if(!parent)return;for(const item of items){if(document.getElementById(item.id))continue;const a=home.cloneNode(true);a.id=item.id;a.removeAttribute('href');a.removeAttribute('aria-current');a.textContent=item.label;a.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();window.location.hash=item.route;},true);parent.insertBefore(a,home.nextSibling);} }const o=new MutationObserver(add);o.observe(document.documentElement,{childList:true,subtree:true});add();})();",
+    "cssUrl": null,
+    "cssInline": null
+  }
+]
