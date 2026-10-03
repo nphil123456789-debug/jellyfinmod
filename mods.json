@@ -1,0 +1,21 @@
+[
+  {
+    "id": "native-library-nav",
+    "name": "Native Library Navigation",
+    "author": "Custom",
+    "description": "Adds Movies and Shows buttons to the Jellyfin top navigation.",
+    "version": "1.0.0",
+    "type": "js",
+    "jellyfin": "10.11+",
+    "tags": [
+      "ui",
+      "home"
+    ],
+    "previewUrl": "",
+    "sourceUrl": "",
+    "jsUrl": null,
+    "jsInline": "(function(){const items=[{id:'navMovies',label:'Movies',route:'/movies?topParentId=f137a2dd21bbc1b99aa5c0f6bf02a805&collectionType=movies'},{id:'navShows',label:'Shows',route:'/tv?topParentId=a656b907eb3a73532e40e44b968d0225&collectionType=tvshows'}];function find(t){return [...document.querySelectorAll('a,button')].find(e=>(e.textContent||'').trim()===t)}function add(){const home=find('Home');if(!home)return;const parent=home.parentElement;if(!parent)return;for(const item of items){if(document.getElementById(item.id))continue;const a=home.cloneNode(true);a.id=item.id;a.removeAttribute('href');a.removeAttribute('aria-current');a.textContent=item.label;a.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();window.location.hash=item.route;},true);parent.insertBefore(a,home.nextSibling);} }const o=new MutationObserver(add);o.observe(document.documentElement,{childList:true,subtree:true});add();})();",
+    "cssUrl": null,
+    "cssInline": null
+  }
+]
